@@ -14,7 +14,7 @@ tasks:
       - php artisan key:generate
       - php artisan config:cache
       - php artisan test
-   php-sonar-job:
+    php-sonar-job:
       runner: sonarsource/sonar-scanner-cli
       steps:
    
