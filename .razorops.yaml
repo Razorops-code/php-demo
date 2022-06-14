@@ -14,3 +14,15 @@ tasks:
       - php artisan key:generate
       - php artisan config:cache
       - php artisan test
+   php-sonar-job:
+      runner: sonarsource/sonar-scanner-cli
+      steps:
+   
+      - checkout    
+      - commands:
+        - |
+          sonar-scanner \
+           -Dsonar.projectKey=php \
+           -Dsonar.sources=. \
+           -Dsonar.host.url=http://13.235.82.212:9000 \
+           -Dsonar.login=881223cfc2a4579a484eb529e4b8de746be8b352
