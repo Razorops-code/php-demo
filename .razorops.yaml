@@ -5,9 +5,9 @@
    
       - checkout    
       - commands:
-        - |
-          sonar-scanner \
-           -Dsonar.projectKey=php \
-           -Dsonar.sources=. \
-           -Dsonar.host.url=http://13.235.82.212:9000 \
-           -Dsonar.login=881223cfc2a4579a484eb529e4b8de746be8b352
+      - |
+        sonar-scanner \
+          -Dsonar.projectKey=php-app \
+          -Dsonar.sources=. \
+          -Dsonar.host.url=http://65.2.9.93:9000 \
+          -Dsonar.login=0f3b7e1444367375d0d85060fa1086da21159233
