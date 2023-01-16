@@ -1,13 +1,13 @@
-
-  php-sonar-job:
-      runner: sonarsource/sonar-scanner-cli
-      steps:
+ php-sonar-job:
+     runner: sonarsource/sonar-scanner-cli
+     steps:
    
-      - checkout    
-      - commands:
-      - |
-        sonar-scanner \
-          -Dsonar.projectKey=php-app \
-          -Dsonar.sources=. \
-          -Dsonar.host.url=http://65.2.9.93:9000 \
-          -Dsonar.login=0f3b7e1444367375d0d85060fa1086da21159233
+     - checkout    
+     - commands:
+     - |
+       sonar-scanner \
+         -Dsonar.projectKey=php-app \
+         -Dsonar.sources=. \
+         -Dsonar.host.url=http://65.2.9.93:9000 \
+         -Dsonar.login=0f3b7e1444367375d0d85060fa1086da21159233
+
