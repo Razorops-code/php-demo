@@ -9,4 +9,4 @@
          -Dsonar.projectKey=php-app \
          -Dsonar.sources=. \
          -Dsonar.host.url=http://65.2.9.93:9000 \
-         -Dsonar.login=0f3b7e1444367375d0d85060fa1086da21159233
+         -Dsonar.login=afc91185d2865823281b6adcd0ccfd9b8990cc54
