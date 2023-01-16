@@ -1,7 +1,6 @@
  php-sonar-job:
      runner: sonarsource/sonar-scanner-cli
      steps:
-   
      - checkout    
      - commands:
      - |
